@@ -1,0 +1,39 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "All Questions";
+}
+
+<h2>All Questions</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Question Text</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>What is the capital of France?</td>
+            <td>
+                <a href="/Question/Edit">Edit</a> |
+                <a href="/Question/Delete">Delete</a>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>What is 2 + 2?</td>
+            <td>
+                <a href="/Question/Edit">Edit</a> |
+                <a href="/Question/Delete">Delete</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<a href="/Question/Create" class="btn btn-primary">Add New Question</a>
+
