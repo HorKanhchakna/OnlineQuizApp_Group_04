@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OnlineQuizApp_Group_04.props" />
+</Project>
